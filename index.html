@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Malatji - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Fortune Malatji</h1>
+        </div>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h2>Hi, I'm Khenneth.</h2>
+            <p>Software Developer | Designer | Innovator</p>
+            <p>Crafting digital experiences with clean code & elegant design.</p>
+            <div class="btm">
+                <button class="cta-button">Download CV <span class="arrow">↓</span></button>
+                <div class="socials">
+                    <a href=""><box-icon type='logo' name='linkedin'></box-icon></a>
+                    <a href=""><box-icon type='logo' name='facebook'></box-icon></a>
+                    <a href=""><box-icon type='logo' name='twitter'></box-icon></a>
+                    <a href=""><box-icon type='logo' name='instagram'></box-icon></a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="IMG_20240722_073134_2-removebg-preview.png" alt="Fortune Malatji">
+        </div>
+    </section>
+
+    <section id="about-me" class="about-section">
+        <div class="sect">
+        <h1>About Me</h1>
+        <div class="about-content">
+            <div class="left-side">
+                <h3>Introduction</h3>
+                <p><strong>Name:</strong> Khenneth Malatji</p>
+                <p><strong>Qualification:</strong> BSc in IT, Computer Science & Informatics</p>
+                <p><strong>Completed:</strong> 2024</p>
+                <p>I am passionate about software development, design, and creating innovative solutions.</p>
+                <div class="btm">
+                    <button class="cta-button">Download CV</button>
+                    <div class="socials">
+                        <a href=""><box-icon type='logo' name='linkedin'></box-icon></a>
+                        <a href=""><box-icon type='logo' name='facebook'></box-icon></a>
+                        <a href=""><box-icon type='logo' name='twitter'></box-icon></a>
+                        <a href=""><box-icon type='logo' name='instagram'></box-icon></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right-side">
+                <img src="IMG_20240722_073134_2-removebg-preview.png" alt="Fortune Malatji">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h1>My Projects</h1>
+        <div class="project-card">
+            <img src="hero1.png" alt="Project 1">
+            <div class="project-info">
+                <h3>Project 1</h3>
+                <p>Description of Project 1, detailing the objectives and technologies used.</p>
+                <button>View Project</button>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="fb.06.jpg" alt="Project 2">
+            <div class="project-info">
+                <h3>Project 2</h3>
+                <p>Description of Project 2, detailing the objectives and technologies used.</p>
+                <button>View Project</button>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="bgf.png" alt="Project 3">
+            <div class="project-info">
+                <h3>Project 3</h3>
+                <p>Description of Project 3, detailing the objectives and technologies used.</p>
+                <button>View Project</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <h1>Services</h1>
+        <div class="service-card">
+            <h3>Web Development</h3>
+            <p>Building responsive and modern websites using cutting-edge technologies.</p>
+        </div>
+        <div class="service-card">
+            <h3>App Development</h3>
+            <p>Creating mobile apps that provide seamless user experiences.</p>
+        </div>
+        <div class="service-card">
+            <h3>Consulting</h3>
+            <p>Providing expert advice on software development and system design.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h1>Contact Me</h1>
+        <p>If you have any inquiries or want to collaborate, feel free to get in touch.</p>
+        <form action="submit-form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fortune Malatji. All Rights Reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+
+</html>
