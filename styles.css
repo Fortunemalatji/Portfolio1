@@ -210,6 +210,7 @@ header .header-nav ul li a:hover {
   overflow: hidden;
 }
 .sect{
+  padding: 20px;
   max-width: 100%;
   max-height: 100%;
   backdrop-filter: blur(5px);
